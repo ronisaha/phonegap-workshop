@@ -9,11 +9,19 @@
     <description>
         A simple user directory application
     </description>
-    <icon src="img/icon.png"/>
+    <icon src="icon.png"/>
     <author href="http://helpful-roni.com" email="roni.cse@gmail.com">
         Roni Saha
     </author>
     <splash src="splash.png"/>
+    <splash src="ldpi.png" platform="android" qualifier="ldpi" />
+    <splash src="mdpi.png" platform="android" qualifier="mdpi" />
+    <splash src="hdpi.png" platform="android" qualifier="hdpi" />
+    <splash src="xhdpi.png" platform="android" qualifier="xhdpi" />
+    <splash src="fr-xhdpi.png" platform="android" qualifier="fr-xhdpi" />
+    <splash src="portrait-xxhdpi.png" platform="android" qualifier="port-xxhdpi" />
+    <splash src="landscape-xxhdpi.png" platform="android" qualifier="land-xxhdpi" />
+
     <content src="index.html"/>
     <feature name="http://api.phonegap.com/1.0/camera"/>
     <feature name="http://api.phonegap.com/1.0/contacts"/>
