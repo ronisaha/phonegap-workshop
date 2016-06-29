@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.l2n.zxy"
+        versionCode = "10"
+        version     = "1.1.0">
+
+    <name>ZXY Mobile</name>
+    <description>
+        A simple user directory application
+    </description>
+    <icon src="img/icon.png"/>
+    <author href="http://helpful-roni.com" email="roni.cse@gmail.com">
+        Roni Saha
+    </author>
+    <splash src="splash.png"/>
+    <content src="index.html"/>
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+
+</widget>
